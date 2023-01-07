@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(68, 67, 67);
+}
+
+.container{
+    max-width: 500px;
+    max-height: 100vh;
+    overflow:visible;
+}
+
+input[type=text],
+input[type=text]:focus{
+    max-width: 500px;
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+}
+
+.todos li{
+    cursor: pointer;
+    max-width: 600px;
+    margin-top: 1rem;
+    box-shadow: 0 0 2px 1px rgba(32, 32, 32, 0.2);
+    background-color:rgb(180, 241, 168);
+}
+
+.todos li:hover{
+    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.507);
+}
+
+.todos li:nth-child(n + -3){
+    background-color:rgb(180, 241, 168);
+}
+
+.todos li:nth-child(even) {
+    background-color: rgb(79, 233, 138);
+}
+
+.border{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top:5rem;
+    background-color: rgb(70, 235, 180);
+}
+
+.filtered{
+    display: none !important; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+}
